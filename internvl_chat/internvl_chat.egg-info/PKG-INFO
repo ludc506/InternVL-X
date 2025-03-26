@@ -1,0 +1,41 @@
+Metadata-Version: 2.2
+Name: internvl_chat
+Version: 2.0.0
+Summary: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks.
+Project-URL: Homepage, https://github.com/OpenGVLab/InternVL
+Project-URL: Bug Tracker, https://github.com/OpenGVLab/InternVL/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2
+Requires-Dist: torchvision>=0.15
+Requires-Dist: transformers==4.37.2
+Requires-Dist: tokenizers==0.15.1
+Requires-Dist: sentencepiece==0.1.99
+Requires-Dist: shortuuid
+Requires-Dist: accelerate
+Requires-Dist: peft>=0.4.0
+Requires-Dist: bitsandbytes==0.41.0
+Requires-Dist: pydantic
+Requires-Dist: markdown2[all]
+Requires-Dist: numpy
+Requires-Dist: scikit-learn>=1.2.2
+Requires-Dist: gradio==3.35.2
+Requires-Dist: gradio_client==0.2.9
+Requires-Dist: requests
+Requires-Dist: httpx==0.24.0
+Requires-Dist: uvicorn
+Requires-Dist: fastapi
+Requires-Dist: deepspeed==0.13.5
+Requires-Dist: einops
+Requires-Dist: einops-exts
+Requires-Dist: timm==0.9.12
+
+# IVL2
+
+This folder contains the implementation of the IVL2.
+
+## env
+
+bos:/mllm/envs/internvl_v2.tar

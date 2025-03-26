@@ -1,0 +1,10 @@
+eval
+examples
+internvl
+internvl_2_5_layer19_resize
+internvl_test
+pretrained
+results
+tools
+train_data
+work_dirs
